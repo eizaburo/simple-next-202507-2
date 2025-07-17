@@ -1,0 +1,51 @@
+.hero {
+    background-color: #aaa;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    color: #fff;
+}
+
+.hero p {
+    color: #fff;
+}
+
+.contactForm {
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: #eee;
+    padding: 40px;
+    gap: 10px;
+}
+
+.contactForm input,
+.contactForm textarea {
+    padding: 8px;
+}
+
+.contactForm button {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.contactForm button:hover {
+    background-color: #666;
+}
+
+.contactForm button:active {
+    background-color: #999;
+}
+
+.errorMessage {
+    font-size: 0.8rem;
+    color: #f00;
+}
